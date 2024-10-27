@@ -235,7 +235,6 @@
   margin-top: 50px;
   display: grid;
   gap: 20px;
-  margin-top: 50px;
 }
 
 @media (width >= 768px) {
@@ -261,7 +260,6 @@
   margin-top: 50px;
   display: grid;
   gap: 20px;
-  margin-top: 50px;
 }
 @media (width >= 768px) {
   .how__section {
@@ -326,9 +324,6 @@ img {
   .images {
     margin-top: 80px;
   }
-  .sunset {
-    margin-top: 0px;
-  }
   img {
     margin-top: 0px;
   }
@@ -340,6 +335,7 @@ img {
     margin-bottom: 20px;
   }
   .sunset {
+    margin-top: 0px;
     grid-column: 1/3;
     grid-row: 1/2;
   }
