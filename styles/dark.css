@@ -11,6 +11,11 @@
   --font-color:#F1B2CE;
   --main-title-color:#DB00FF;
   --bg-img: url("../images/cover-image-dark.png");
-  --hover-color:var(--accent-color);
+  --hover-color:rgba(255, 0, 112, 0.4);
   --corner-color:var(--accent-color);
+  --bt-color:#ff0070;
+}
+
+.theme_dark .header__decorated-icon {
+  display: unset;
 }

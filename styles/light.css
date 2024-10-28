@@ -13,7 +13,7 @@
   --bg-img: url("../images/cover-image-light.png");
   --hover-color: rgba(50, 49, 45, 0.4);
   --corner-color: var(--main-color);
-  --hover-color: var(--main-color);
+  --bt-color:#353430;
 }
 
 .page.theme_light .header__decorated-icon {
@@ -30,6 +30,10 @@
     --bg-img: url("../images/cover-image-light.png");
     --hover-color: rgba(50, 49, 45, 0.4);
     --corner-color: var(--main-color);
-    --hover-color: var(--main-color);
+    --bt-color:#353430;
+}
+  
+  .header__decorated-icon{
+    display: none;
   }
 }
